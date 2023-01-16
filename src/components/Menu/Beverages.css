@@ -1,0 +1,45 @@
+.list-hot-coffee h2{
+    font-size:40px;
+    color : chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.list-hot-coffee{
+    margin:2rem;
+    padding:3rem;
+    /* grid-template-columns: repeat(2, auto); */
+    /* color:chocolate; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: None;
+    width : 290px;
+}
+.bev-container{
+
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 40px;
+    list-style: none;
+    text-align: left;
+    width: 40vw;
+    justify-content:center;
+    
+}
+.item-box{
+    border-color:red;
+}
+.item-box:hover{
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width : 1200px){
+    .bev-container-active{
+        display : flex;
+        flex-direction : column;
+        width : 100%;
+        position: relative ;
+        align-items: center;
+        text-align: center;
+    }
+
+}
