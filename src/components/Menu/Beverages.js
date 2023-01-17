@@ -12,3 +12,5 @@ const Beverages = () => {
 };
 
 export default Beverages;
+
+
