@@ -1,0 +1,85 @@
+.page{
+  
+    
+    padding: inherit;
+    font-size: xx-large;
+    /* font-style: normal; */
+    font-family: 'Merienda', cursive;
+    color:rgb(26, 26, 24);
+    padding-bottom : 10px;
+    margin-bottom : 40px;
+    /* margin : 0.1rem; */
+    
+}
+
+
+
+.specrow{
+    display: flex;
+
+}
+.speciality{
+    flex: 33.33%;
+    padding: 5px;
+}
+.contactus h2{
+    font-size : 50px;
+    padding : 1rem;
+    margin-left : 1rem;
+     font-family: 'Tangerine', cursive;
+}
+
+.contactus li   {
+    font-size : 20px;
+    padding-left : 40px;
+    padding-bottom : 20px;
+    list-style:None;
+    font-family: 'Merienda', cursive;
+    color:black;
+}
+.header{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    /* font-style: normal; */
+    text-align : center;
+    font-size: 70px;
+    padding : 3rem;
+    color: rgb(18, 18, 18);
+
+  }
+
+.background{
+    
+        background-image: url('https://th.bing.com/th/id/OIP.L6nKTxWugTUuzS2cTN0SNwHaE8?w=288&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+        background-size : cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+.contactus li a{
+    text-decoration: None;
+    color : black;
+    font-family: 'Merienda', cursive;
+}
+
+.img-sp{
+    transition : transform 0.2s ease, border-radius 0.2s ease;
+}
+
+.img-sp:hover{
+    transform : scale(1.05);
+    border-radius : 20px;
+}
+
+.container{
+    width : 90%;
+    background:rgb(125, 125, 127);    
+    margin-left : 74px;
+    padding-left : 13px;
+    padding-right : 12px;
+    margin-right : 10px;
+}
+.spectext-header{
+    font-size : 50px;
+    padding : 1rem;
+    margin-left : 1rem;
+     font-family: 'Tangerine', cursive;
+}

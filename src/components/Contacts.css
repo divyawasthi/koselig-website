@@ -1,0 +1,115 @@
+.list-items{
+    list-style: None;
+    align-items: center;
+    text-align : center;
+    margin-right : 100px;
+}
+.content{
+    text-align: center;
+    /* font-size : 40px; */
+    color: white;
+    background-image : url('https://images.ctfassets.net/3s5io6mnxfqz/4eOb26J3DvN722FGkjFYDr/bb21b22185ad4fd1e15c0bc0259cabca/AdobeStock_112408615.jpeg');
+    width : 100%;
+    background-size:100% 400px;
+    background-repeat: no-repeat;
+    height : 400px;
+    padding : 4rem;
+    /* background:#000; */
+    margin-bottom : 2rem;
+    background-size:cover;
+    background-position: bottom;
+
+    
+    
+}
+.list-items2 h2{
+    color: orange;
+    font-size : 30px;
+}
+.list-items2{
+    list-style: None;
+    font-size : 16px;
+    margin-left : 40px;
+    color :white;
+}
+.content h1{
+    font-family: 'Tangerine', cursive;
+    font-size : 100px;
+
+}
+.content p{
+    font-size : 20px;
+    padding-top : 0.1rem;   
+}
+#name,#email,#phoneno{
+    width : 550px;
+    height :40px;
+    padding : 1rem 2rem;
+    margin : 0.4rem;
+    font-size : 16px;
+    background-color : white;
+    /* border-color:white; */
+    border : None;
+}
+::placeholder{
+    color : rgb(181, 177, 177);
+}
+.image{
+    background-color : rgb(217, 213, 213);
+    /* margin : 0.1rem; */
+    /* padding : 1rem 2rem; */
+    background-size:cover;
+
+    height : 900px;
+    /* background-image : url('https://w0.peakpx.com/wallpaper/694/751/HD-wallpaper-wine-glasses-on-top-of-brown-table-near-window.jpg') */
+}
+
+.header-image{
+    width : 100%;
+    height : 400px;
+    
+    /* height : 400px; */
+}
+#btn:hover{
+    background-color : rgb(155, 104, 8);
+    color : white;
+}
+/* form{
+    display : flex;
+} */
+.divider-content{
+    display: flex;
+    padding-left : 40px;
+    margin: 3rem;
+}
+.contactus li i{
+    font-size : 23px;
+    color : black;
+    padding : 0.3rem;
+}
+
+
+#message{
+    width : 550px;
+    height : 200px;
+    font-size : 16px;
+    padding : 0.4rem 2rem;
+    border : None;
+    
+}
+
+#btn{
+    background-color: orange;
+    border : None;
+    width : 120px;
+    height : 50px;
+    padding : 0.1rem 0.2rem;
+    margin-top : 1rem;
+    margin-bottom : 1rem;
+}
+
+@media screen and (max-width : 1200px){
+    .divider-content{
+        flex-direction: column;
+    }
+}
