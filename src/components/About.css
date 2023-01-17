@@ -32,7 +32,7 @@
     padding-left : 40px;
     padding-bottom : 20px;
     list-style:None;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Merienda', cursive;
     color:black;
 }
 .header{
@@ -52,10 +52,15 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
 }
+.contactus li a{
+    text-decoration: None;
+    color : black;
+    font-family: 'Merienda', cursive;
+}
 
 .container{
     width : 90%;
-    background:rgb(231, 231, 247);    
+    background:rgb(125, 125, 127);    
     margin-left : 74px;
     padding-left : 13px;
     padding-right : 12px;

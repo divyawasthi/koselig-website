@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router ,Switch,Route ,Redirect} from 'react-router-dom';
 import Layout from './components/Layout';
+import MenuLayout from './components/MenuLayout';
 import About from './components/About';
 import Menu from './components/Menu';
 import Contacts from './components/Contacts';
@@ -9,6 +10,7 @@ import Login from './components/Login';
 import Beverages from './components/Menu/Beverages';
 
 import './App.css';
+
 
 function App() {
   return (
@@ -18,8 +20,14 @@ function App() {
       <Switch>
         <Route path='/' exact><Redirect to='/'/></Route>
         <Route path='/About' exact><About /></Route>
-        <Route path='/Menu' exact><Menu /></Route>
-        <Route path='/Menu/Beverages' exact><Beverages /></Route>
+        <Route path='/Menu' exact>
+        <Menu />
+        </Route>
+        <Route path='/Menu/Beverages' exact>
+          <MenuLayout>
+          <Beverages />
+          </MenuLayout>
+         </Route>
         <Route path='/Contact' exact><Contacts /></Route>
         <Route path='/Login' exact><Login /></Route>
 

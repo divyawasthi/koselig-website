@@ -79,6 +79,11 @@
     padding-left : 40px;
     margin: 3rem;
 }
+.contactus li i{
+    font-size : 23px;
+    color : black;
+    padding : 0.3rem;
+}
 
 
 #message{

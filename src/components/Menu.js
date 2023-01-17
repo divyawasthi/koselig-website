@@ -3,6 +3,7 @@ import './Menu.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
+
 const Menu = () =>{
     // return <h1>Menu</h1>
     const [currSize,setSize] = useState(true)
@@ -16,6 +17,7 @@ const Menu = () =>{
     }
     window.addEventListener('resize',resizeWindow);
     return <>
+    <div className='containers'>
         {/* <h2 className='menu-header'>Menu</h2> */}
         <ul className={currSize?'menu' : 'menu-active'}>
             {/* <h2>Menu</h2> */}
@@ -51,7 +53,8 @@ const Menu = () =>{
             </li>
             
         </ul>
-
+        
+    </div>
     </>
 }
 

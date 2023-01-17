@@ -1,10 +1,11 @@
 .footer-container {
     background-color: #242424;
-    padding: 5rem 0 6rem 4rem;
+    padding: 5rem 0 5rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* width : 100%; */
   }
   
   .footer-links {
@@ -16,6 +17,7 @@
   
   .footer-link-wrapper {
     display: flex;
+    /* width : 100%; */
   }
   .time-list{
     list-style:None;
@@ -28,7 +30,7 @@
     align-items: flex-start;
     margin: 18px;
     text-align: left;
-    width: 50 0px;
+    width: 300px;
     box-sizing: border-box;
   }
   
@@ -68,7 +70,7 @@
 
   
   .social-media {
-    max-width: 1000px;
+    max-width: 900px;
     width: 30%;
   }
   

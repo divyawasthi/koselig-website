@@ -9,14 +9,7 @@ function Footer() {
     <div className="footer-container">
       <div class="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
-            <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-
-            <Link to="/">Terms of Service</Link>
-          </div>
+          
           <div class="footer-link-items">
             <h2>Contact Us</h2>
             <p>
@@ -82,14 +75,7 @@ function Footer() {
             >
               <i class="fab fa-twitter" />
             </a>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <i class="fab fa-linkedin" />
-            </Link>
+            
           </div>
         </div>
       </section>
