@@ -10,7 +10,7 @@ import { countries } from "./Data";
             {countries.map((fadeImage, index) => (
               <div className="each-fade" key={index}>
                 <div className="image-container">
-                  <img src={fadeImage.image} style={{objectFit : 'cover', height : '1000px', width: '100%'}}    />
+                  <img src={fadeImage.image} style={{objectFit : 'cover', height : '1000px', width: '100%'}} />
                 </div>
               </div>
             ))}
