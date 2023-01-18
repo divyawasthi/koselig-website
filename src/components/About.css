@@ -5,7 +5,7 @@
     font-size: xx-large;
     /* font-style: normal; */
     font-family: 'Merienda', cursive;
-    color:rgb(26, 26, 24);
+    color:rgb(250, 250, 244);
     padding-bottom : 10px;
     margin-bottom : 40px;
     /* margin : 0.1rem; */
@@ -24,7 +24,8 @@
     font-size : 50px;
     padding : 1rem;
     margin-left : 1rem;
-     font-family: 'Tangerine', cursive;
+    font-family: 'Tangerine', cursive;
+    color :rgb(248, 151, 6);
 }
 
 .contactus li   {
@@ -33,7 +34,7 @@
     padding-bottom : 20px;
     list-style:None;
     font-family: 'Merienda', cursive;
-    color:black;
+    color:rgb(250, 250, 244)
 }
 .header{
     font-family: 'Herr Von Muellerhoff', cursive;
@@ -41,7 +42,7 @@
     text-align : center;
     font-size: 70px;
     padding : 3rem;
-    color: rgb(18, 18, 18);
+    color: rgb(248, 151, 6);
 
   }
 
@@ -54,7 +55,7 @@
 }
 .contactus li a{
     text-decoration: None;
-    color : black;
+    color : rgb(250, 250, 244);
     font-family: 'Merienda', cursive;
 }
 
@@ -71,4 +72,5 @@
     padding : 1rem;
     margin-left : 1rem;
      font-family: 'Tangerine', cursive;
+     color :rgb(248, 151, 6);
 }

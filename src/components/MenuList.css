@@ -1,3 +1,26 @@
 .containers{
     display:flex;
 }
+.menu-sidebar{
+    /* margin : 2rem; */
+    padding-top : 1rem;
+    padding-left : 90px;
+    padding-right : 100px;
+    /* text-align : center; */
+    /* justify-content: center; */
+    background: gray;
+    width : 300px;
+}
+
+.menu-sidebar h2{
+    color : rgb(252, 159, 8);
+    font-size : 25px;
+    padding-top : 4px;
+    padding-bottom : 1rem;
+}
+.menu-sidebar li{
+    list-style : None ;
+    color : rgb(253, 248, 248);
+    padding-bottom : 1rem;
+    
+}

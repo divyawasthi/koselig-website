@@ -6,10 +6,10 @@
 }
 .food:hover{
     border-radius : 70px;
-    border : 2px solid rgb(28, 220, 237);
+    border : 2px solid rgb(246, 149, 5);
 }
 .li-food:hover{
-    color :rgb(28, 220, 237);
+    color :rgb(255, 151, 5);
 }
 .li-food{
     list-style : None ;
@@ -19,29 +19,100 @@
 .li-food figcaption{
     display : block;
 }
+.menu-container ul{
+    list-style: None;
+}
 
-.containers{
+.menu-container h2{
+    text-align : left;
+    padding-top : 2rem;
+    padding-bottom : 1rem;
+
+}
+h1{
+    text-align: left;
+    padding-left : 180px;
+    padding-top : 1rem;
+}
+.menu-container{
+    /* width : 60%; */
+    justify-content: center;
+    /* text-align : center; */
+    /* margin-left: 19rem; */
+    align-self: center;
+    margin-top : 2rem;
+    padding-left : 200px;
+    /* margin-bottom : 2rem; */
+}
+.snacks-menu{
+    display: grid;
+    /* margin : 3rem; */
+    /* margin-top : 1.2rem; */
+   
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 37px;
+  list-style: none;
+  /* text-align: center; */
+  width: 100%;
+  justify-content:left;
+  margin-right: 1rem;
+  /* background : orange; */
+}
+.del-menu{
+    
+    display: grid;
+    /* margin : 3rem; */
+    /* margin-top : 1.2rem; */
+   
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 37px;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  justify-content:left;
+  margin-right: 1rem;
+  /* background : orange; */
+    
+}
+.beverages-menu{
+    display: grid;
+    /* margin : 3rem; */
+    /* margin-top : 1.2rem; */
+   
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 37px;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  justify-content:left;
+  margin-right: 1rem;
+  /* background : orange; */
+}
+
+
+.container_{
     display:flex;
-    margin : 1.3rem;
-
 }
 
 .menu{
     display: grid;
-    margin : 3rem;
-    padding-left : 100px;
-  grid-template-columns: repeat(1, auto);
-  grid-gap: 60px;
+    /* margin : 3rem; */
+    /* margin-top : 1.2rem; */
+    padding-top:40px ;
+    padding-bottom : 30px;
+    padding-left : 50px;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 40px;
   list-style: none;
   text-align: center;
-  width: 90vw;
-  justify-content:left;
+  width: 100%;
+  justify-content:center;
   margin-right: 1rem;
+  background : orange;
+  /* background-size :300px 500px; */
 }
 
-.food-link:hover{
-    width : 100px;    
-}
+
 
 @media screen and (max-width : 1200px){
     .menu-active{

@@ -1,0 +1,55 @@
+.beverages-menu{
+    display: grid;
+    /* margin : 3rem; */
+    /* margin-top : 1.2rem; */
+   
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 37px;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  justify-content:left;
+  margin-right: 1rem;
+  /* background : orange; */
+}
+.li-food:hover{
+    color :rgb(255, 151, 5);
+}
+.li-food{
+    list-style : None ;
+    /* display:flex; */
+}
+
+.li-food figcaption{
+    display : block;
+}
+.food{
+    height : 120px;
+    width : 120px; 
+    border-radius : 70px;
+    /* border: 2px solid green; */
+}
+.food:hover{
+    border-radius : 70px;
+    border : 2px solid rgb(246, 149, 5);
+}
+fieldset{
+    margin-bottom : 3rem;
+    text-align: center;
+    justify-content:center;
+    width : 80%;
+    border : None;
+    /* padding-left : 300px; */
+    /* background-color : orange; */
+    /* grid-template-columns: (5); */
+}
+.menu-container1{
+    margin-left : 5rem;
+    padding-left : 100px;
+    justify-content: left;
+}
+.menu-container1 h2{
+    text-align : left ;
+    padding-top : 2rem;
+    padding-bottom : 1rem;  
+}

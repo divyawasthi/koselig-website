@@ -1,0 +1,51 @@
+.menu-sidebar{
+    /* margin : 2rem; */
+    padding-top : 1rem;
+    padding-left : 90px;
+    padding-right : 40px;
+    /* text-align : center; */
+    /* justify-content: center; */
+    background: gray;
+    margin-right : 7rem;
+    width : 300px;
+}
+#hot:hover,#cold:hover,#tea:hover,#smooth:hover,#plates:hover,#it:hover,#salad:hover,#soul:hover,
+#bag:hover,#sand:hover,#cook:hover,#choc:hover,
+#cold.active,#tea.active,#smooth.active,#plates.active,#it.active,#salad.active,#soul.active,
+#bag.active,#sand.active,#cook.active,#chock.active,
+#hot.active{
+    color:rgb(164, 162, 162);
+}
+
+#beve:hover,#Snacks:hover,#delicacy:hover,
+#beve.active,#Snacks.active,#delicacy.active{
+    color : rgb(140, 92, 3);
+}
+
+
+.menu-sidebar {
+    text-decoration : None ;
+}
+
+.menu-sidebar li,#choc,#hot,#cold,#tea,#smooth,
+#plates,#it,#salad,#soul,#bag,#sand,#cook
+{
+    list-style : None ;
+    color : rgb(249, 249, 236);
+    padding-bottom : 1rem;
+    text-decoration : None ;
+}
+
+.beve,#delicacy,#Snacks,#beve{
+    color : rgb(252, 159, 8);
+    font-size : 25px;
+    padding-top : 4px;
+    padding-bottom : 1rem;
+    text-decoration: None;
+
+}
+
+.hot:active{
+    /* text-decoration: None; */
+    color : red;
+}
