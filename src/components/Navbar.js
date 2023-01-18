@@ -41,6 +41,12 @@ const Navbar = () =>{
                     <li className='nav-item'>
                         <Link to='/Contact' className='nav-links' onClick={closeMobilemenu}>Contacts</Link>
                     </li>
+<<<<<<< HEAD
+=======
+                    <li className='nav-item'>
+                        <Button to='/Login' onClick={closeMobilemenu}>Login</Button>
+                    </li>
+>>>>>>> maste
                     
                 </ul>
                 {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}

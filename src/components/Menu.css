@@ -5,20 +5,34 @@
     /* border: 2px solid green; */
 }
 .food:hover{
+<<<<<<< HEAD
     border-radius : 70px;
     border : 2px solid rgb(246, 149, 5);
 }
 .li-food:hover{
     color :rgb(255, 151, 5);
+=======
+    /* border-radius : 70px; */
+    /* border : 2px solid rgb(28, 220, 237); */
+}
+.li-food:hover{
+    /* color :rgb(28, 220, 237); */
+    transform: scale(1.2);
+>>>>>>> maste
 }
 .li-food{
     list-style : None ;
     /* display:flex; */
+<<<<<<< HEAD
+=======
+    transition : transform 0.2s ease;
+>>>>>>> maste
 }
 
 .li-food figcaption{
     display : block;
 }
+<<<<<<< HEAD
 .menu-container ul{
     list-style: None;
 }
@@ -92,10 +106,18 @@ h1{
 
 .container_{
     display:flex;
+=======
+
+.containers{
+    display:flex;
+    margin : 1.3rem;
+
+>>>>>>> maste
 }
 
 .menu{
     display: grid;
+<<<<<<< HEAD
     /* margin : 3rem; */
     /* margin-top : 1.2rem; */
     padding-top:40px ;
@@ -113,19 +135,47 @@ h1{
 }
 
 
+=======
+    margin : 3rem;
+    padding-left : 100px;
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 60px;
+  list-style: none;
+  text-align: center;
+  width: 90vw;
+  justify-content:left;
+  margin-right: 1rem;
+}
+
+.food-link:hover{
+    width : 100px;    
+}
+>>>>>>> maste
 
 @media screen and (max-width : 1200px){
     .menu-active{
         /* display : flex; */
         flex-direction : column;
+<<<<<<< HEAD
         width : 100%;
         /* position: relative ; */
         /* align-items: left; */
         justify-content: left;
         text-align: center;
+=======
+        width : 20%;
+        /* position: relative ; */
+        /* align-items: left; */
+        justify-content: left;
+        text-align: left;
+>>>>>>> maste
         margin : 1.2rem;
         padding-right : 300px;
 
     }
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> maste

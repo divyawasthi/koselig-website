@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import "./Food-items.css";
 import { Link } from "react-router-dom";
 const Beverages = () => {
@@ -41,6 +42,16 @@ const Beverages = () => {
 
         </fieldset>
         </div>
+=======
+import "./Beverages.css";
+
+const Beverages = () => {
+  return (
+    <>
+      <div className='bev'>  
+        <h2>Bevs</h2>
+      </div>
+>>>>>>> maste
     </>
   );
 };

@@ -1,7 +1,11 @@
 
 .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+<<<<<<< HEAD
   height: 150px;
+=======
+  height: 100px;
+>>>>>>> maste
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +19,17 @@
   
 }
 
+<<<<<<< HEAD
+=======
+.login-item{
+  transition : transform 0.2s;
+}
+
+.login-item:hover{
+  transform: scale(1.1);
+}
+
+>>>>>>> maste
 .navbar-container {
   display: flex;
   justify-content: center;
