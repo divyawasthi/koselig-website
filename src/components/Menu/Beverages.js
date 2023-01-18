@@ -17,23 +17,23 @@ const Beverages = () => {
               <figcaption>Hot Coffee</figcaption>
           </li>
           <li className='li-food'>
-              <img className='food' src='https://i.pinimg.com/originals/df/f7/fb/dff7fb444c5439c7fa59f83bcba03cef.jpg'
-              alt='something'/>
+              <Link to ='/Menu/ColdCoffee'><img className='food' src='https://i.pinimg.com/originals/df/f7/fb/dff7fb444c5439c7fa59f83bcba03cef.jpg'
+              alt='something'/></Link>
               <figcaption>Cold Coffee</figcaption>
           </li>
           <li className='li-food'>
-              <img className='food' src='https://i0.wp.com/www.cookingfromheart.com/wp-content/uploads/2018/07/Masala-Chai-5.jpg?resize=600%2C900'
-              alt='something'/>
+              <Link to='/Menu/Tea'><img className='food' src='https://i0.wp.com/www.cookingfromheart.com/wp-content/uploads/2018/07/Masala-Chai-5.jpg?resize=600%2C900'
+              alt='something'/></Link>
               <figcaption>Tea</figcaption>
           </li>
           <li className='li-food'>
-              <img className='food' src='https://i0.wp.com/frugalhausfrau.com/wp-content/uploads/2017/11/best-hot-chocolate.jpg?ssl=1'
-              alt='something'/>
-              <figcaption>HotChoclate</figcaption>
+              <Link to='/Menu/HotChoc'><img className='food' src='https://i0.wp.com/frugalhausfrau.com/wp-content/uploads/2017/11/best-hot-chocolate.jpg?ssl=1'
+              alt='something'/></Link>
+              <figcaption>Hot Chocolate</figcaption>
           </li>
           <li className='li-food'>
-              <img className='food' src='https://cdn.shopify.com/s/files/1/0069/6467/4613/files/shutterstock_272431886_1024x1024.jpg?v=1603148034'
-              alt='something'/>
+              <Link to='/Menu/Smoothies'><img className='food' src='https://cdn.shopify.com/s/files/1/0069/6467/4613/files/shutterstock_272431886_1024x1024.jpg?v=1603148034'
+              alt='something'/></Link>
               <figcaption>Smoothies</figcaption>
           </li>
           

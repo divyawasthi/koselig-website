@@ -41,9 +41,6 @@ const Navbar = () =>{
                     <li className='nav-item'>
                         <Link to='/Contact' className='nav-links' onClick={closeMobilemenu}>Contacts</Link>
                     </li>
-                    <li className='nav-item'>
-                        <Button to='/Login' onClick={closeMobilemenu}>Login</Button>
-                    </li>
                     
                 </ul>
                 {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}

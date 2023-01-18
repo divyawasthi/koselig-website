@@ -1,12 +1,12 @@
 import React from 'react';
 
 import './beverage_.css';
-const HotCoff = () =>{
+const Smoothies = () =>{
     return <>
     
     <ul className='coff-list'>
         <ul>
-        <h1>Hot Coffee</h1>
+        <h1>Smoothies and much more</h1>
         <li ><span>Cortado</span>
         <img src='https://th.bing.com/th/id/OIP._O6qmsSN4fWcPbkCTrlH3QHaJ4?pid=ImgDet&rs=1' alt='something'/>
         </li>
@@ -81,4 +81,4 @@ const HotCoff = () =>{
     </>
 }
 
-export default HotCoff;
+export default Smoothies;

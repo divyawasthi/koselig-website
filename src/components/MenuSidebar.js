@@ -12,7 +12,7 @@ const MenuSidebar = () =>{
                         <li><NavLink to='/Menu/HotCoffee' id='hot' activeClassName='active'>Hot Coffee</NavLink></li>
                         <li><NavLink to='/Menu/ColdCoffee' id='cold'>Cold Coffee</NavLink></li>
                         <li><NavLink to='/Menu/Tea' id='tea'>Tea</NavLink></li>
-                        <li><NavLink to='/Menu/HotChoc'id='choc'>Hot Choclate</NavLink></li>
+                        <li><NavLink to='/Menu/HotChoc'id='choc'>Hot Chocolate</NavLink></li>
                         <li><NavLink to='/Menu/Smoothies' id='smooth'>Smoothies</NavLink></li>
                     </ul>
                 </li>
@@ -34,7 +34,7 @@ const MenuSidebar = () =>{
                         <li><NavLink to='/Menu/Soul' id='soul'>Soul Food</NavLink></li>
                         <li><NavLink to='/Menu/Salads' id='salad'>Salads</NavLink></li>
                         <li><NavLink to='/Menu/Italian' id='it'>Italian</NavLink></li>
-                        <li><NavLink to='/Menu/Italian' id='plates'>Little Plates</NavLink></li>
+                        <li><NavLink to='/Menu/Plates' id='plates'>Little Plates</NavLink></li>
                     </ul>
                 </li>
             </ul>
