@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import About from './components/About';
 import Contacts from './components/Contacts';
 import Login from './components/Login';
+import Imgcarousel from './components/Imgcarousel';
 
 import Menurenderer from './Menurender';
 import './App.css';
@@ -15,7 +16,7 @@ function App() {
       <Router>
       <Layout>
       <Switch>
-        <Route path='/' exact><Redirect to='/'/></Route>
+        <Route path='/' exact><Redirect to='/'/><Imgcarousel /></Route>
         <Route path='/About' exact><About /></Route>
         <Route path='/Menu' >
         <Menurenderer />

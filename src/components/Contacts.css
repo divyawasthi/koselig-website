@@ -16,6 +16,8 @@
     padding : 4rem;
     /* background:#000; */
     margin-bottom : 2rem;
+    background-size:cover;
+    background-position: bottom;
 
     
     
@@ -61,6 +63,7 @@
     height : 900px;
     /* background-image : url('https://w0.peakpx.com/wallpaper/694/751/HD-wallpaper-wine-glasses-on-top-of-brown-table-near-window.jpg') */
 }
+
 .header-image{
     width : 100%;
     height : 400px;

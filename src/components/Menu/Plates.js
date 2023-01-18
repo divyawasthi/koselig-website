@@ -3,12 +3,15 @@ import React from 'react';
 import './beverage_.css';
 const Plates = () =>{
     return <>
-    
-    <ul className='coff-list'>
+    <div className='coff-list'>
+    <h1>Little Plates</h1>
+    <p className='plat-head'>Life is all about little things</p>
+    <ul >
         <ul>
-        <h1>Little Plates</h1>
-        <li ><span>Cortado</span>
-        <img src='https://th.bing.com/th/id/OIP._O6qmsSN4fWcPbkCTrlH3QHaJ4?pid=ImgDet&rs=1' alt='something'/>
+        
+        <li ><span>Pesto Garlic Bread</span>
+        <img src='https://th.bing.com/th/id/OIP._O6qmsSN4fWcPbkCTrlH3QHaJ4?pid=ImgDet&rs=1' alt='something'/><hr/>
+        <p></p>
         </li>
         
         <li ><span>Caramel Cortado</span>
@@ -44,6 +47,7 @@ const Plates = () =>{
         </ul>
         
     </ul>
+    </div>
  
     </>
 }

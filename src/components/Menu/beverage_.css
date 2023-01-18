@@ -12,17 +12,27 @@
     
 }
 .coff-list span:hover{
-    color : red;
-    font-size : 1px;
+    /* color : red; */
+    font-size : 0;
+}
+.coff-list ul{
+    padding : 30px;
+    
+}
+.plat-head{
+    margin-left : 2.6rem;
+
 }
 .coff-list h1{
-    padding-bottom : 3rem;
+    padding-bottom : 1rem;
     text-align : left ;
-    padding-left : 0.6rem;
+    padding-left : 2.6rem;
+    color : brown;
+    font-size : 30px;
 }
 .coff-list li{
     font-size : 20px;
-    color : chocolate;
+    color : Black;
     list-style : None ;
     padding-left:1rem;
     padding-bottom:1rem;
@@ -32,17 +42,26 @@
     background-color: rgb(251, 248, 248);
     width: 800px;
     border: 5px solid chocolate;
-    padding: 40px;
+    padding: 50px;
     margin: 20px;
-    height : 600px;
-    display:flex;
     
+    /* display:flex; */
+    
+}
+.pizza-list{
+    height : 1700px;
+}
+.coff-list p{
+    color : rgb(165, 160, 160);
+    font-size : 13px;
 }
 .coff-list2{
     padding-left : 180px;
-    padding-top : 111px;
+    padding-top : 121px;
     /* padding */
 }
 .coff-container{
     display:flex;
+
+
 }
