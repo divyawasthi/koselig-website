@@ -55,7 +55,8 @@
     color : rgb(181, 177, 177);
 }
 .image{
-    background-color : rgb(217, 213, 213);
+    /* background-color : rgb(132, 13, 13) */
+    background-color: rgba(231, 196, 155, 0.593);
     /* margin : 0.1rem; */
     /* padding : 1rem 2rem; */
     background-size:cover;

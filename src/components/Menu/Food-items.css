@@ -12,6 +12,9 @@
   margin-right: 1rem;
   /* background : orange; */
 }
+img{
+    object-fit: cover;
+}
 .li-food:hover{
     color :rgb(255, 151, 5);
 }
