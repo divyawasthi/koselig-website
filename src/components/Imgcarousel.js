@@ -2,7 +2,7 @@ import React from "react";
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { countries } from "./Data";
-
+import './Img.css';
   const Imgcarousel = () => {
     return (
         <div className="slide-container">
@@ -10,7 +10,7 @@ import { countries } from "./Data";
             {countries.map((fadeImage, index) => (
               <div className="each-fade" key={index}>
                 <div className="image-container">
-                  <img src={fadeImage.image} style={{objectFit : 'cover', height : '1000px', width: '100%'}} />
+                  <img className='img ' src={fadeImage.image} style={{objectFit : 'cover', height : 'auto', width: '100%' }} alt=''/>
                 </div>
               </div>
             ))}

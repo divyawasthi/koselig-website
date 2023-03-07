@@ -1,12 +1,8 @@
 import React from 'react';
 import './About.css';
-import { Link } from 'react-router-dom';
 
 const About = () =>{
 
-  function img_zoom(){
-
-  }
 
     return <>
     

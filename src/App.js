@@ -5,7 +5,6 @@ import About from './components/About';
 import Contacts from './components/Contacts';
 import Login from './components/Login';
 import Imgcarousel from './components/Imgcarousel';
-
 import Menurenderer from './Menurender';
 import './App.css';
 
